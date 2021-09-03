@@ -1,0 +1,77 @@
+body {
+  background-color: lightcoral;
+}
+
+header {
+  background: red;
+  /* border-style: solid; */
+  
+}
+
+.タイトル {
+  /* background-color: #fff; */
+  /* 背景色つけるとわかりやすくなる */
+  width: 600px;
+ margin:10px auto ;
+ text-align: center;
+}
+
+.タイトル  img {
+  border-radius: 20px;
+  border-width: 4px;
+  border-style: inherit;
+  margin-top:10px ;
+}
+
+
+
+
+body {
+  margin: 30px;
+}
+
+
+section {
+  margin: 20px auto;
+}
+
+section h1 {
+  margin: 0;
+}
+
+section .pic img{
+  width: 250px;
+  height: 150px;
+  margin: auto 10px;
+  border-radius: 20px;
+}
+
+section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  background: rgb(219, 9, 9);
+  display: block;
+  width: 250px;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+section {
+  display: flex;
+}
+
+.j {
+  margin-top: 30px;
+}
+
+.w {
+  margin-top: 40px;
+}
