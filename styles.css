@@ -12,24 +12,20 @@ header {
   /* background-color: #fff; */
   /* 背景色つけるとわかりやすくなる */
   width: 600px;
- margin:10px auto ;
- text-align: center;
+  margin:10px auto ;
+  text-align: center;
 }
 
-.タイトル  img {
+.title  img {
   border-radius: 20px;
   border-width: 4px;
   border-style: inherit;
   margin-top:10px ;
 }
 
-
-
-
 body {
   margin: 30px;
 }
-
 
 section {
   margin: 20px auto;
@@ -47,7 +43,7 @@ section .pic img{
 }
 
 section:nth-child(even) {
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
 }
 
 .btn {
